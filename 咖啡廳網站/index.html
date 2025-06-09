@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>大直咖啡</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Serif TC', serif;
+      margin: 0;
+      background-color: #6d4c41;
+      color: #333;
+    }
+
+    header {
+      background-image: url('https://source.unsplash.com/1600x600/?coffee,magazine');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    .cafe-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      padding: 20px 40px;
+    }
+
+    .cafe-card {
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .cafe-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .cafe-card .info {
+      padding: 15px;
+    }
+
+    .cafe-card .info h2 {
+      margin-top: 0;
+      font-size: 1.3em;
+    }
+
+    .cafe-card .info p {
+      font-size: 0.95em;
+      margin: 4px 0;
+    }
+
+    .links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #6d4c41;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>大直咖啡</h1>
+  </header>
+
+  <section class="cafe-list">
+<div class="cafe-card">
+  <img src="img/1.webp" alt="Always Day One Cafe">
+  <div class="info">
+    <h2>Always Day One Cafe</h2>
+    <p>推薦：卡布奇諾、布丁</p>
+    <p>營業時間：08:00–17:00</p>
+    <div class="links">
+      <a href="https://g.co/kgs/nCUVwxU" target="_blank">地圖</a>
+    </div>
+  </div>
+</div>
+
+
+    <div class="cafe-card">
+      <img src="img/2.webp" alt="A2H COFFEE TEA BEER">
+      <div class="info">
+        <h2>A2H COFFEE TEA BEER</h2>
+        <p>推薦：冰美式、沙拉</p>
+        <p>營業時間：11:00–19:00</p>
+        <div class="links">
+          <a href="https://g.co/kgs/KP3qqLf" target="_blank">地圖</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cafe-card">
+      <img src="img/3.webp" alt="Balcony Cafe陽台咖啡">
+      <div class="info">
+        <h2>Balcony Cafe陽台咖啡</h2>
+        <p>推薦：戚風蛋糕、蘋果派</p>
+        <p>營業時間：12:00–18:00</p>
+        <div class="links">
+          <a href="https://g.co/kgs/umqZxQE" target="_blank">地圖</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cafe-card">
+      <img src="img/4.webp" alt="BreakFirst CAFE/Studio">
+      <div class="info">
+        <h2>BreakFirst CAFE/Studio</h2>
+        <p>推薦：貓、鹹派</p>
+        <p>營業時間：13:00–18:00</p>
+        <div class="links">
+          <a href="https://g.co/kgs/3zW3MeA" target="_blank">地圖</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cafe-card">
+      <img src="img/5.webp" alt="沐橙咖啡 MU Coffee">
+      <div class="info">
+        <h2>沐橙咖啡 MU Coffee</h2>
+        <p>推薦：拿鐵、乳酪蛋糕</p>
+        <p>營業時間：09:30–20:00</p>
+        <div class="links">
+          <a href="https://g.co/kgs/xkwsvBT" target="_blank">地圖</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cafe-card">
+      <img src="img/6.webp" alt="Sultani Coffee">
+      <div class="info">
+        <h2>Sultani Coffee</h2>
+        <p>推薦：蜂蜜檸檬氣泡飲、拿鐵</p>
+        <p>營業時間：9:30–17:30</p>
+        <div class="links">
+          <a href="https://g.co/kgs/sFC9JMJ" target="_blank">地圖</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cafe-card">
+      <img src="img/7.webp" alt="庫亞斯咖啡烘焙屋">
+      <div class="info">
+        <h2>庫亞斯咖啡烘焙屋</h2>
+        <p>推薦：手沖咖啡、肉桂捲</p>
+        <p>營業時間：10:00–17:00</p>
+        <div class="links">
+          <a href="https://g.co/kgs/z9KAqA4" target="_blank">地圖</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 大直咖啡 | Designed by 你
+  </footer>
+</body>
+</html>
